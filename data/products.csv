@@ -1,0 +1,21 @@
+product_id,product_name,category,unit_price_ngn
+1,Refurbished Smartphone,Electronics,145000
+2,Wireless Earbuds,Electronics,17500
+3,Laptop Stand,Accessories,12000
+4,Used Laptop,Computing,265000
+5,Bluetooth Speaker,Electronics,22000
+6,Office Chair,Furniture,48000
+7,Smartwatch,Electronics,38000
+8,Standing Fan,Home,32500
+9,Coffee Maker,Home,54000
+10,Computer Monitor,Computing,95000
+11,Phone Charger,Accessories,6500
+12,Gaming Keyboard,Computing,28000
+13,Backpack,Accessories,16500
+14,Desk Lamp,Home,10500
+15,Tablet,Electronics,87000
+16,Portable SSD,Computing,59000
+17,Camera Tripod,Accessories,19000
+18,Used Bicycle,Sports,76000
+19,Fitness Tracker,Sports,24000
+20,Bookshelf,Furniture,43500

@@ -1,0 +1,31 @@
+customer_id,full_name,email,city,signup_date
+1,Amina Lawal,customer001@example.com,Port Harcourt,2026-05-06
+2,Tunde Ajayi,customer002@example.com,Lagos,2026-05-11
+3,Chika Adeleke,customer003@example.com,Port Harcourt,2026-05-16
+4,Zainab Abubakar,customer004@example.com,Abuja,2026-05-21
+5,David Ibrahim,customer005@example.com,Kano,2026-05-26
+6,Ngozi Ojo,customer006@example.com,Abuja,2026-05-31
+7,Musa Eze,customer007@example.com,Kano,2026-06-05
+8,Fatima Okonkwo,customer008@example.com,Ibadan,2026-06-10
+9,Emeka Musa,customer009@example.com,Abeokuta,2026-06-15
+10,Ada Umar,customer010@example.com,Ibadan,2026-06-20
+11,Bola Adeyemi,customer011@example.com,Abeokuta,2026-06-25
+12,Segun Balogun,customer012@example.com,Port Harcourt,2026-06-30
+13,Ife Okafor,customer013@example.com,Lagos,2026-07-05
+14,Rasheed Obi,customer014@example.com,Port Harcourt,2026-07-10
+15,Kemi Bello,customer015@example.com,Lagos,2026-07-15
+16,Amaka Lawal,customer016@example.com,Kano,2026-07-20
+17,Yusuf Ajayi,customer017@example.com,Abuja,2026-07-25
+18,Sade Adeleke,customer018@example.com,Kano,2026-07-30
+19,Femi Abubakar,customer019@example.com,Abuja,2026-08-04
+20,Mary Ibrahim,customer020@example.com,Abeokuta,2026-08-09
+21,Damilola Ojo,customer021@example.com,Ibadan,2026-08-14
+22,Tope Eze,customer022@example.com,Abeokuta,2026-08-19
+23,Hauwa Okonkwo,customer023@example.com,Ibadan,2026-08-24
+24,Samuel Musa,customer024@example.com,Lagos,2026-08-29
+25,Nneka Umar,customer025@example.com,Port Harcourt,2026-09-03
+26,Olumide Adeyemi,customer026@example.com,Lagos,2026-09-08
+27,Halima Balogun,customer027@example.com,Port Harcourt,2026-09-13
+28,Seyi Okafor,customer028@example.com,Abuja,2026-09-18
+29,Ibrahim Obi,customer029@example.com,Kano,2026-09-23
+30,Grace Bello,customer030@example.com,Abuja,2026-05-01
