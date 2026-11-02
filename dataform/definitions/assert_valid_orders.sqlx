@@ -1,0 +1,14 @@
+
+config {
+  type: "assertion",
+  description: "Validate order IDs, quantities and prices"
+}
+
+SELECT *
+FROM ${ref("stg_orders")}
+WHERE
+  order_id IS NULL
+  OR customer_id IS NULL
+  OR product_id IS NULL
+  OR quantity <= 0
+  OR unit_price_ngn < 0

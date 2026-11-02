@@ -1,0 +1,21 @@
+config {
+  type: "table",
+  schema: "marketplace_analytics",
+  description: "Clean order-level marketplace data",
+  assertions: {
+    uniqueKey: ["order_id"],
+    nonNull: ["order_id", "customer_id", "product_id"]
+  }
+}
+
+SELECT
+  order_id,
+  customer_id,
+  product_id,
+  quantity,
+  unit_price_ngn,
+  ordered_at,
+  LOWER(TRIM(status)) AS status,
+  quantity * unit_price_ngn AS order_amount_ngn
+FROM
+  `project-9427dc86-bb27-4beb-8e9.marketplace_raw.orders`

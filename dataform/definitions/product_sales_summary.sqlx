@@ -1,0 +1,23 @@
+config {
+  type: "table",
+  schema: "marketplace_analytics",
+  description: "Completed sales aggregated by product"
+}
+
+SELECT
+  p.product_id,
+  p.product_name,
+  p.category,
+  COUNT(o.order_id) AS completed_orders,
+  COALESCE(SUM(o.quantity), 0) AS units_sold,
+  COALESCE(SUM(o.order_amount_ngn), 0) AS revenue_ngn
+FROM
+  `project-9427dc86-bb27-4beb-8e9.marketplace_raw.products` AS p
+LEFT JOIN
+  ${ref("stg_orders")} AS o
+  ON p.product_id = o.product_id
+  AND o.status = 'completed'
+GROUP BY
+  p.product_id,
+  p.product_name,
+  p.category
