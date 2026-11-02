@@ -1,0 +1,5 @@
+defaultProject: project-9427dc86-bb27-4beb-8e9
+defaultDataset: dataform
+defaultAssertionDataset: dataform_assertions
+dataformCoreVersion: 3.0.52
+defaultLocation: "europe-west2"
