@@ -41,7 +41,7 @@ Screenshots of the Airbyte sync, Dataform executions, and BigQuery results are i
 
 ## Project Structure
 
-- `data/` — sample CSV files
-- `sql/` — PostgreSQL schema, validation, and new-record test scripts
-- `dataform/definitions/` — Dataform SQLX transformations and assertions
-- `screenshots/` — screenshots from the pipeline
+- `data/` - sample CSV files
+- `sql/` - PostgreSQL schema, validation, and new-record test scripts
+- `dataform/definitions/` - Dataform SQLX transformations and assertions
+- `screenshots/` - screenshots from the pipeline
