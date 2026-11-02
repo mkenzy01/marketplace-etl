@@ -4,15 +4,16 @@ A side data engineering project I worked on to explore Google Cloud Dataform and
 
 The idea was to move marketplace data from PostgreSQL into BigQuery using Airbyte, then use Dataform to transform the data for analysis.
 
-## Tools Used
+## Tools I Used
 
 - PostgreSQL (Neon)
+- SQL
 - Airbyte
 - Google BigQuery
 - Google Cloud Dataform
-- SQL
 
-## How It Works
+
+## Process
 
 The pipeline follows this flow:
 
@@ -26,7 +27,7 @@ For the transformation part, I used Dataform to create an order staging table (`
 
 I also added data quality assertions to check for things like missing order IDs, invalid quantities, and negative prices.
 
-## Testing New Records
+## Testing OF New Records
 
 After the initial sync, I inserted another order into PostgreSQL (`order_id = 121`) and ran Airbyte again.
 
