@@ -17,7 +17,7 @@ The idea was to move marketplace data from PostgreSQL into BigQuery using Airbyt
 
 The pipeline follows this flow:
 
-**PostgreSQL → Airbyte → BigQuery → Dataform**
+**PostgreSQL > Airbyte > BigQuery > Dataform**
 
 I created three tables in PostgreSQL: `customers`, `products`, and `orders`, and populated them with sample marketplace data.
 
